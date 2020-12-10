@@ -14,7 +14,9 @@ class ServicosController extends Controller
      */
     public function index()
     {
-        //
+        $servicos = Servicos::all();
+
+        return view('welcome');
     }
 
     /**

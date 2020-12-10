@@ -14,7 +14,8 @@ class TonerController extends Controller
      */
     public function index()
     {
-        //
+        $title = 'Toners';
+        return view('toners.index', compact('title'));
     }
 
     /**
@@ -24,7 +25,8 @@ class TonerController extends Controller
      */
     public function create()
     {
-        //
+        $title = 'Toners';
+        return view('toners.create', compact('title'));
     }
 
     /**

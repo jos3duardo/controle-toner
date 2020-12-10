@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\TonerController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +16,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $title = 'Dashboard';
+    return view('dashboard', compact('title'));
 });
+
+Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
+Route::resource('toners', TonerController::class);

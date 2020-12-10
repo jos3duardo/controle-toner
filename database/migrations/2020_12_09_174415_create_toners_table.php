@@ -18,7 +18,7 @@ class CreateTonersTable extends Migration
             $table->string('modelo');
             $table->string('marca');
             $table->string('tipo');
-            $table->string('cilindro');
+            $table->boolean('cilindro');
             $table->string('status');
             $table->timestamps();
         });
