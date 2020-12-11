@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Toner extends Model
 {
     use HasFactory;
+    protected $fillable = [
+        'modelo',
+        'marca',
+        'tipo',
+        'status',
+        'cilindro'
+    ];
 }

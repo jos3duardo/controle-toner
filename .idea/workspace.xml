@@ -20,25 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aba40ef5-63ee-4bce-9a13-ecc18721063a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/TonerCreate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/nav.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/sidenav.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/livewire/toner-create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/servicos/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/toners/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/toners/forms.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/toners/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/controle-toner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/controle-toner.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ServicosController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ServicosController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TonerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TonerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_09_174415_create_toners_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_09_174415_create_toners_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Toner.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Toner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/toners/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/toners/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/toners/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/toners/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +32,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -181,11 +167,17 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\controle-toner" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -202,6 +194,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607535230200</updated>
       <workItem from="1607535231532" duration="21535000" />
+      <workItem from="1607651200578" duration="3805000" />
     </task>
     <servers />
   </component>
@@ -218,43 +211,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="555" y="187" width="808" height="674" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607535779038">
-      <screen x="0" y="0" width="1920" height="1047" />
-    </state>
-    <state x="555" y="187" width="808" height="674" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1047/1920.0.1366.768@0.0.1920.1047" timestamp="1607535779038" />
-    <state x="742" y="282" width="432" height="481" key="FileChooserDialogImpl" timestamp="1607535773838">
-      <screen x="0" y="0" width="1920" height="1047" />
-    </state>
-    <state x="742" y="282" width="432" height="481" key="FileChooserDialogImpl/0.0.1920.1047/1920.0.1366.768@0.0.1920.1047" timestamp="1607535773838" />
-    <state width="1294" height="270" key="GridCell.Tab.0.bottom" timestamp="1607537879841">
-      <screen x="0" y="0" width="1920" height="1047" />
-    </state>
-    <state width="1294" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1047/1920.0.1366.768@0.0.1920.1047" timestamp="1607537879841" />
-    <state width="1294" height="270" key="GridCell.Tab.0.center" timestamp="1607537879840">
-      <screen x="0" y="0" width="1920" height="1047" />
-    </state>
-    <state width="1294" height="270" key="GridCell.Tab.0.center/0.0.1920.1047/1920.0.1366.768@0.0.1920.1047" timestamp="1607537879840" />
-    <state width="1294" height="270" key="GridCell.Tab.0.left" timestamp="1607537879839">
-      <screen x="0" y="0" width="1920" height="1047" />
-    </state>
-    <state width="1294" height="270" key="GridCell.Tab.0.left/0.0.1920.1047/1920.0.1366.768@0.0.1920.1047" timestamp="1607537879839" />
-    <state width="1294" height="270" key="GridCell.Tab.0.right" timestamp="1607537879841">
-      <screen x="0" y="0" width="1920" height="1047" />
-    </state>
-    <state width="1294" height="270" key="GridCell.Tab.0.right/0.0.1920.1047/1920.0.1366.768@0.0.1920.1047" timestamp="1607537879841" />
-    <state x="209" y="21" key="SettingsEditor" timestamp="1607610683084">
-      <screen x="0" y="0" width="1920" height="1047" />
-    </state>
-    <state x="209" y="21" key="SettingsEditor/0.0.1920.1047/1920.0.1366.768@0.0.1920.1047" timestamp="1607610683084" />
-    <state x="555" y="257" width="808" height="533" key="Vcs.Push.Dialog.v2" timestamp="1607549877621">
-      <screen x="0" y="0" width="1920" height="1047" />
-    </state>
-    <state x="555" y="257" width="808" height="533" key="Vcs.Push.Dialog.v2/0.0.1920.1047/1920.0.1366.768@0.0.1920.1047" timestamp="1607549877621" />
-    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1607551149053">
-      <screen x="0" y="0" width="1920" height="1047" />
-    </state>
-    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1920.1047/1920.0.1366.768@0.0.1920.1047" timestamp="1607551149053" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

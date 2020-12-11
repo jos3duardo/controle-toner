@@ -35,33 +35,44 @@
                         </tr>
                         </thead>
                         <tbody class="bg-white divide-y divide-gray-200">
+                        @forelse($toners as $toner)
                         <tr>
                             <td class="px-6 py-4 whitespace-nowrap">
+                                {{$toner->modelo}}
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                {{$toner->marca}}
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                {{$toner->tipo}}
 
                             </td>
                             <td class="px-6 py-4 whitespace-nowrap">
+                                {{$toner->status}}
 
                             </td>
                             <td class="px-6 py-4 whitespace-nowrap">
-
-                            </td>
-                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-
-                            </td>
-                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                {{$toner->created_at->format('d/m/Y')}}
 
                             </td>
                             <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                                 <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
                             </td>
                         </tr>
-
+                        @empty
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap text-center">
+                                    sem dados
+                                </td>
+                            </tr>
+                        @endforelse
                         <!-- More rows... -->
                         </tbody>
                     </table>
                 </div>
             </div>
         </div>
+        {{$toners->links()}}
     </div>
 
 

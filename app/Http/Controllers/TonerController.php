@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\TonerRequest;
 use App\Models\Toner;
 use Illuminate\Http\Request;
 
@@ -14,8 +15,9 @@ class TonerController extends Controller
      */
     public function index()
     {
+        $toners = Toner::paginate(5);
         $title = 'Toners';
-        return view('toners.index', compact('title'));
+        return view('toners.index', compact('title', 'toners'));
     }
 
     /**
@@ -35,9 +37,19 @@ class TonerController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(TonerRequest $request)
     {
-        //
+        try {
+            $title = 'Toners';
+            $toners = Toner::paginate(10);
+            Toner::create($request->all());
+            return redirect()->route('toners.index');
+        }catch (\Throwable $error){
+            return view('toners.index', [
+                'errors' => $error->getMessage()
+            ]);
+        }
+
     }
 
     /**
