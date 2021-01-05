@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aba40ef5-63ee-4bce-9a13-ecc18721063a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TonerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TonerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Toner.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Toner.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/toners/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/toners/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/toners/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/toners/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +39,8 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpDebugGeneral" break_at_first_line="true" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="app">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
@@ -169,9 +167,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="credentialsType com.jetbrains.php.remote.interpreter.ui.PhpCreateRemoteSdkForm" value="Docker Compose" />
+    <property name="credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm" value="Docker Compose" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -179,11 +179,20 @@
       <recent name="C:\xampp\htdocs\controle-toner" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.ExampleTest">
+    <configuration name="ExampleTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\ExampleTest" configuration_file="$PROJECT_DIR$/../phpunit.xml" file="$PROJECT_DIR$/tests/Unit/ExampleTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.ExampleTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -195,6 +204,8 @@
       <updated>1607535230200</updated>
       <workItem from="1607535231532" duration="21535000" />
       <workItem from="1607651200578" duration="3805000" />
+      <workItem from="1609882370724" duration="94000" />
+      <workItem from="1609887150606" duration="1640000" />
     </task>
     <servers />
   </component>
@@ -212,5 +223,25 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/TonerController.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/TonerController.php</url>
+          <line>29</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
