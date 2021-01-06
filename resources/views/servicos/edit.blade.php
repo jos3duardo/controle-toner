@@ -1,6 +1,5 @@
 @extends('layouts.layout')
 @section('content')
-
     <div class="mt-10 sm:mt-0">
         <div class="md:grid md:grid-cols-0 md:gap-6">
             <div class="mt-5 md:mt-0 md:col-span-2">
@@ -54,5 +53,4 @@
             </div>
         </div>
     </div>
-
 @endsection

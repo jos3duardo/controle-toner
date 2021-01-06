@@ -69,7 +69,8 @@ class TonerController extends Controller
      */
     public function edit(Toner $toner)
     {
-        //
+        $title = 'Toners';
+        return view('toners.edit', compact('toner', 'title'));
     }
 
     /**
@@ -81,7 +82,10 @@ class TonerController extends Controller
      */
     public function update(Request $request, Toner $toner)
     {
-        //
+        $toner->fill($request->all());
+        $toner->save();
+        return redirect()->route('toners.index');
+
     }
 
     /**
@@ -92,6 +96,7 @@ class TonerController extends Controller
      */
     public function destroy(Toner $toner)
     {
-        //
+        $toner->delete();
+        return redirect()->route('toners.index');
     }
 }

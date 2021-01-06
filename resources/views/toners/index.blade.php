@@ -55,8 +55,18 @@
                                 {{$toner->created_at->format('d/m/Y')}}
 
                             </td>
-                            <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                                <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
+                            <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium flex inline">
+                                <a href="{{route('toners.edit', ['toner' => $toner->id])}}" class=" text-indigo-600 hover:text-indigo-900 mr-2">
+                                    <i class="fas fa-edit text-blue-900"></i>
+                                </a>
+                                <form action="{{route('toners.destroy', $toner)}}" method="POST">
+                                    @method('delete')
+                                    @csrf
+                                    <a class="text-indigo-600 hover:text-indigo-900 curso-pointer"
+                                       onclick="confirm('{{ __('Tem certeza de que deseja excluir este toner?') }}') ? this.parentElement.submit() : ''">
+                                        <i class="fas fa-trash-alt text-red-900"></i>
+                                    </a>
+                                </form>
                             </td>
                         </tr>
                         @empty
