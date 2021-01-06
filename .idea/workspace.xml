@@ -19,15 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aba40ef5-63ee-4bce-9a13-ecc18721063a" name="Default Changelist" comment="criando listagem de serviços">
+    <list default="true" id="aba40ef5-63ee-4bce-9a13-ecc18721063a" name="Default Changelist" comment="criando edição de toners e atualizando os cards da dashboard">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TonerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TonerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/sidenav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/sidenav.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/servicos/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/servicos/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/toners/forms.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/toners/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/toners/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/toners/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +213,7 @@
       <workItem from="1607535231532" duration="21535000" />
       <workItem from="1607651200578" duration="3805000" />
       <workItem from="1609882370724" duration="94000" />
-      <workItem from="1609887150606" duration="10218000" />
+      <workItem from="1609887150606" duration="11197000" />
     </task>
     <task id="LOCAL-00001" summary="iniciando com docker no projeto">
       <created>1609889169114</created>
@@ -235,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609895419421</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="criando edição de toners e atualizando os cards da dashboard">
+      <created>1609897567008</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609897567008</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,9 +255,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="iniciando com docker no projeto" />
     <MESSAGE value="criando listagem de serviços" />
-    <option name="LAST_COMMIT_MESSAGE" value="criando listagem de serviços" />
+    <MESSAGE value="criando edição de toners e atualizando os cards da dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="criando edição de toners e atualizando os cards da dashboard" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
