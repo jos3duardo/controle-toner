@@ -23,17 +23,17 @@
                 </a>
             </li>
             <li class="mr-3 flex-1">
-                <a href="{{route('dashboard')}}"
+                <a href="{{route('servicos.index')}}"
                    class="  block py-1 md:py-3 pl-1 align-middle text-white no-underline hover:text-white border-b-2
                             hover:border-blue-600
-                            {{ $title == 'Mysql' ? 'border-blue-600' : 'border-gray-800'}}
+                            {{ $title == 'Serviços' ? 'border-blue-600' : 'border-gray-800'}}
                        ">
                     <i class="fas fa-chart-area pr-0 md:pr-3
-                            {{ $title == 'Mysql' ? 'text-blue-600 md:text-blue-600' : 'text-gray-600 md:text-gray-400'}}
+                            {{ $title == 'Serviços' ? 'text-blue-600 md:text-blue-600' : 'text-gray-600 md:text-gray-400'}}
                         ">
                     </i>
                     <span class="pb-1 md:pb-0 text-xs md:text-base   block md:inline-block
-                        {{ $title == 'Mysql' ? 'text-blue-600 md:text-blue-600' : 'text-gray-600 md:text-gray-400'}}">
+                        {{ $title == 'Serviços' ? 'text-blue-600 md:text-blue-600' : 'text-gray-600 md:text-gray-400'}}">
                         Serviços
                     </span>
                 </a>

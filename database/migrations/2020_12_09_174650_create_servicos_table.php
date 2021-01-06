@@ -16,11 +16,9 @@ class CreateServicosTable extends Migration
         Schema::create('servicos', function (Blueprint $table) {
             $table->id();
             $table->string('nome');
-            $table->string('status');
-            $table->float('quantidade');
-            $table->integer('cilindro');
-            $table->unsignedBigInteger('toner_id');
-            $table->foreign('toner_id')->references('id')->on('toners');
+            $table->string('numero_os');
+            $table->string('descricao');
+            $table->string('modelo_equipamento');
             $table->timestamps();
         });
     }

@@ -20,9 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aba40ef5-63ee-4bce-9a13-ecc18721063a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/servicos/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/servicos/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ServicosController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ServicosController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TonerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TonerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Servicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Servicos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_09_174650_create_servicos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_09_174650_create_servicos_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/sidenav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/sidenav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/servicos/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/servicos/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +42,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -169,13 +184,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="credentialsType com.jetbrains.php.remote.interpreter.ui.PhpCreateRemoteSdkForm" value="Docker Compose" />
     <property name="credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm" value="Docker Compose" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/servicos" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/servicos" />
       <recent name="C:\xampp\htdocs\controle-toner" />
     </key>
   </component>
@@ -205,8 +221,16 @@
       <workItem from="1607535231532" duration="21535000" />
       <workItem from="1607651200578" duration="3805000" />
       <workItem from="1609882370724" duration="94000" />
-      <workItem from="1609887150606" duration="1640000" />
+      <workItem from="1609887150606" duration="8045000" />
     </task>
+    <task id="LOCAL-00001" summary="iniciando com docker no projeto">
+      <created>1609889169114</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609889169114</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +248,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="iniciando com docker no projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="iniciando com docker no projeto" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -236,6 +264,11 @@
           <url>file://$PROJECT_DIR$/app/Http/Controllers/TonerController.php</url>
           <line>29</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/ServicosController.php</url>
+          <line>42</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

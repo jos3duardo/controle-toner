@@ -40,8 +40,6 @@ class TonerController extends Controller
     public function store(TonerRequest $request)
     {
         try {
-            $title = 'Toners';
-            $toners = Toner::paginate(10);
             Toner::create($request->all());
             return redirect()->route('toners.index');
         }catch (\Throwable $error){

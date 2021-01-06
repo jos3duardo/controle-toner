@@ -14,9 +14,9 @@ class ServicosController extends Controller
      */
     public function index()
     {
-        $servicos = Servicos::all();
-
-        return view('welcome');
+        $servicos = Servicos::paginate();
+        $title = 'Serviços';
+        return view('servicos.index', compact('servicos', 'title'));
     }
 
     /**
@@ -26,7 +26,8 @@ class ServicosController extends Controller
      */
     public function create()
     {
-        //
+        $title = 'Serviços';
+        return view('servicos.create', compact('title'));
     }
 
     /**
@@ -37,7 +38,15 @@ class ServicosController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        try {
+
+            Servicos::create($request->all());
+            return redirect()->route('servicos.index');
+        }catch (\Throwable $error){
+            return view('servicos.index', [
+                'errors' => $error->getMessage()
+            ]);
+        }
     }
 
     /**
@@ -54,12 +63,13 @@ class ServicosController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Servicos  $servicos
+     * @param  \App\Models\Servicos  $servico
      * @return \Illuminate\Http\Response
      */
-    public function edit(Servicos $servicos)
+    public function edit(Servicos $servico)
     {
-        //
+        $title = 'Serviços';
+        return view('servicos.edit', compact('servico', 'title'));
     }
 
     /**
@@ -69,9 +79,11 @@ class ServicosController extends Controller
      * @param  \App\Models\Servicos  $servicos
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Servicos $servicos)
+    public function update(Request $request, Servicos $servico)
     {
-        //
+        $servico->fill($request->all());
+        $servico->save();
+        return redirect()->route('servicos.index');
     }
 
     /**
@@ -80,8 +92,9 @@ class ServicosController extends Controller
      * @param  \App\Models\Servicos  $servicos
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Servicos $servicos)
+    public function destroy(Servicos $servico)
     {
-        //
+        $servico->delete();
+        return redirect()->route('servicos.index');
     }
 }
